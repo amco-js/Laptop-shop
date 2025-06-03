@@ -5,7 +5,7 @@ export default function Header() {
   
     return (
   <header>
-        <img src="./ahokts-logo.png" alt="AHOKTS Logo" className='logo' />
+        <img src="/ahokts.png" alt="AHOKTS Logo" className='logo' />
         <h1>AHOKTS SHOP</h1>
         <input
           type="text"
