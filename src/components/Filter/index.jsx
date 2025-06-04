@@ -17,7 +17,7 @@ function Filter() {
                 <option value="dell">DELL</option>
                 <option value="lenovo">LENOVO</option>
                 <option value="asus">ASUS</option>
-                <option value="toshiba">TOSHIBA</option>
+                <option value="acer">ACER</option>
                 <option value="apple">APPLE</option>
                 </select>
             <select name="battery" className="filter-select">
@@ -28,9 +28,9 @@ function Filter() {
             </select>
             <select name="ram" className="filter-select">
                 <h2>RAM:</h2>
-                <option value="4">4GB</option>
                 <option value="8">8GB</option>
                 <option value="16">16GB</option>
+                <option value="32">32GB</option>
                 </select>
                 <select name="cpu" className="filter-select">
                 <h2>CPU:</h2>

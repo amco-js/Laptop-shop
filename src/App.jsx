@@ -5,6 +5,7 @@ import Login from './components/Login'
 import Signup from './components/Signup'
 import Filter from './components/Filter'
 import Header from './components/Header'
+import Cart from './components/Cart'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/login" element={<Login/>} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/filter" element={<Filter/>} />
+        <Route path="/cart" element={<Cart />} />
         
         <Route path="/brand">
           <Route index element={<h1>Choose a brand</h1>} />
