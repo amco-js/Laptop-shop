@@ -1,3 +1,4 @@
+import React from 'react'
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Landing from './components/Landing'
@@ -5,8 +6,8 @@ import Login from './components/Login'
 import Signup from './components/Signup'
 import Filter from './components/Filter'
 import Header from './components/Header'
-import Cart from './components/Cart'
-import Favorite from './components/Favorite'
+import Cart from './components/Cart/Cart'
+import Favorite from './components/Favorite/Favorite'
 
 function App() {
   return (
@@ -32,4 +33,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
     const [search, setSearch] = useState('');
@@ -15,8 +16,8 @@ export default function Header() {
           className="search-bar"
         />
 
-        <button className='login' Link to="/login">Log in</button>
-        <button className='signup' Link to="/signup">Sign up</button>
+        <button className='login'><Link to="/login">Login</Link></button>
+        <button className='signup'><Link to="/signup">Sign Up</Link></button>
       </header>
   );
 }

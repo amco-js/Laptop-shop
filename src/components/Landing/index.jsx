@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import React from 'react';
+import { useState } from 'react';
 import './index.css'
 import { Link } from 'react-router-dom';
 
@@ -7,12 +8,10 @@ function Landing() {
   
   return (
     <div>
-      
       <aside>
-        <button className='cart'>Cart</button>
+        <button className='cart'><Link to="/cart">Cart</Link></button>
         <button className='filter'><Link to="/filter">Filter</Link></button>
-        <button className='akcija'>Disscount</button>
-        <button className='favorite'>Favorite</button>
+        <button className='favorite'><Link to="/favorite">Favorite</Link></button>
       </aside>
       <main>
         <h2>Laptop brands</h2>

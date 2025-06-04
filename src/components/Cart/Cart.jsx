@@ -1,12 +1,11 @@
 import React from "react";
-import { useState } from "react";
-import "./Cart.css";
+import "./cart.css";
 
 const Cart = () => {
-  const [cartItems, setCartItems] = useState([]);
-
   return (
-    <div className="cart-container">
+    <div>
+      <h2>Shopping Cart</h2>
+      <button onClick={() => alert("Purchase successful!")}>Purchase</button>
     </div>
   );
 }
