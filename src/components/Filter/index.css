@@ -1,0 +1,24 @@
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  background: #181717;
+  padding: 1rem;
+  border-radius: 10px;
+  max-width: 300px;
+  margin: 2rem auto;
+  box-shadow: 0 2px 8px rgba(255, 107, 0, 0.1);
+}
+
+.filter-label {
+  margin-bottom: 0.5rem;
+  color: #5a2805;
+  font-weight: bold;
+}
+
+.filter-input,
+.filter-select {
+  padding: 0.5rem;
+  border: 1px solid #0c0704de;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
